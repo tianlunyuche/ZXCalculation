@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35195265224FC0A200529527 /* CMyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35195263224FC0A200529527 /* CMyString.cpp */; };
 		35AF516D21C4E08700ACCFEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35AF516C21C4E08700ACCFEE /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35195263224FC0A200529527 /* CMyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CMyString.cpp; sourceTree = "<group>"; };
 		35AF516921C4E08700ACCFEE /* ZXCalculation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZXCalculation; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AF516C21C4E08700ACCFEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				35AF516C21C4E08700ACCFEE /* main.cpp */,
+				35195263224FC0A200529527 /* CMyString.cpp */,
 			);
 			path = ZXCalculation;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35195265224FC0A200529527 /* CMyString.cpp in Sources */,
 				35AF516D21C4E08700ACCFEE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,7 +237,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2K8YQD53SK;
+				DEVELOPMENT_TEAM = 99PJ6X3Z7H;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -242,7 +246,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2K8YQD53SK;
+				DEVELOPMENT_TEAM = 99PJ6X3Z7H;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
